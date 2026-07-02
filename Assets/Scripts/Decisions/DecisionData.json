@@ -1,0 +1,24 @@
+{
+  "events": [
+    {
+      "id": "door_interaction",
+      "isCorrect": true,
+      "score": 10,
+      "feedback": "You moved toward a safe exit."
+    },
+
+    {
+      "id": "table_interaction",
+      "isCorrect": true,
+      "score": 5,
+      "feedback": "You took cover under a table."
+    },
+
+    {
+      "id": "window_interaction",
+      "isCorrect": false,
+      "score": -5,
+      "feedback": "Windows are dangerous during earthquakes."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "events": [
+    {
+      "id": "desk_interaction",
+      "isCorrect": true,
+      "score": 10,
+      "feedback": "Correct! Take cover under a desk during an earthquake."
+    },
+    {
+      "id": "chair_interaction",
+      "isCorrect": true,
+      "score": 5,
+      "feedback": "You used nearby furniture for support."
+    },
+    {
+      "id": "window_interaction",
+      "isCorrect": false,
+      "score": -10,
+      "feedback": "Wrong! Stay away from windows as they can shatter."
+    },
+    {
+      "id": "door_interaction",
+      "isCorrect": true,
+      "score": 10,
+      "feedback": "You moved toward an exit."
+    }
+  ]
+}
